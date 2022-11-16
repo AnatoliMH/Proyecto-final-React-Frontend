@@ -1,0 +1,12 @@
+.contFooter {
+    background-color: rgb(82, 145, 145);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titleFooter {
+    font-size: 15px;
+}
