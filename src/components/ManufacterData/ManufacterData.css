@@ -1,4 +1,9 @@
+.titleManufacter {
+  margin: 0px 0px 20px;
+}
+
 .contManufacterData {
+  width: 40%;;
   margin: 25px;
   margin-top: 40px;
   padding: 20px;

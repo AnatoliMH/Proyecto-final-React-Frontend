@@ -41,7 +41,16 @@ const Formulario = ({ title, setFilters }) => {
           <option value="3">3*</option>
           <option value="4">4*</option>
           <option value="5">5*</option>
-        </select>
+          </select>
+          
+                  <label>Filtrar por empresa</label>
+                  <input
+                    type="text"
+                    name="select"
+                    className="register"
+                    placeholder="Cualquier empresa"
+                    {...register("manufacter")}
+                  ></input>
    */
 
   return (
@@ -50,7 +59,7 @@ const Formulario = ({ title, setFilters }) => {
         <div className="contTitulo">
           <h1>{title}</h1>
         </div>
-        <label>Selecciona el juego</label>
+        <label>Busca el juego</label>
         <input
           type="text"
           name="select"
@@ -58,17 +67,6 @@ const Formulario = ({ title, setFilters }) => {
           placeholder="Cualquier juego"
           {...register("name")}
         ></input>
-        <br />
-
-        <label>Filtrar por empresa</label>
-        <input
-          type="text"
-          name="select"
-          className="register"
-          placeholder="Cualquier empresa"
-          {...register("manufacter")}
-        ></input>
-
         <br />
 
         <label>Precio máximo</label>
